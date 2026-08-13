@@ -3,36 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="探索我的AI视频创作项目，包括AI生成的风景、动画、产品展示等多种类型的视频作品。">
-    <meta name="keywords" content="AI视频, 作品集, 视频创作, 风景视频, 动画, 产品展示">
-    <meta name="author" content="AI视频创作者">
+    <meta name="description" content="麦子的拾穗集文章合集，涵盖科技前沿、财经观察与AI时代思考的深度内容。">
+    <meta name="keywords" content="麦子的拾穗集, 科技文章, 财经文章, AI, 投资, 自媒体, 博客">
+    <meta name="author" content="麦子">
     <meta name="robots" content="index, follow">
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://michael-4753.github.io/portfolio/portfolio.html">
-    <meta property="og:title" content="作品集 | AI视频创作者">
-    <meta property="og:description" content="探索我的AI视频创作项目，包括AI生成的风景、动画、产品展示等多种类型的视频作品。">
-    <meta property="og:image" content="https://michael-4753.github.io/portfolio/images/portfolio-og.jpg">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://michael-4753.github.io/portfolio/portfolio.html">
-    <meta property="twitter:title" content="作品集 | AI视频创作者">
-    <meta property="twitter:description" content="探索我的AI视频创作项目，包括AI生成的风景、动画、产品展示等多种类型的视频作品。">
-    <meta property="twitter:image" content="https://michael-4753.github.io/portfolio/images/portfolio-og.jpg">
-    
-    <title>作品集 | 个人网站</title>
+    <meta property="og:title" content="文章合集 | 麦子的拾穗集">
+    <meta property="og:description" content="科技前沿、财经观察与AI时代思考的深度内容合集。">
+
+    <title>文章合集 | 麦子的拾穗集</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="logo">Portfolio</a>
+            <a href="index.html" class="logo">麦子的拾穗集</a>
             <ul class="nav-menu">
                 <li><a href="index.html" class="nav-link">首页</a></li>
-                <li><a href="portfolio.html" class="nav-link active">作品集</a></li>
+                <li><a href="portfolio.html" class="nav-link active">文章</a></li>
                 <li><a href="about.html" class="nav-link">关于我</a></li>
             </ul>
             <div class="hamburger">
@@ -45,170 +37,165 @@
 
     <main>
         <section class="page-header">
-            <h1>作品集</h1>
-            <p>探索我的AI视频创作项目</p>
+            <h1>文章合集</h1>
+            <p>每一篇，都是我认真拾起的一颗麦穗</p>
+            <div class="breadcrumb">
+                <a href="index.html">首页</a> / 文章
+            </div>
         </section>
 
-        <section class="portfolio-filters">
+        <div class="article-filters">
             <button class="filter-btn active" data-filter="all">全部</button>
-            <button class="filter-btn" data-filter="ai-video">AI视频</button>
-            <button class="filter-btn" data-filter="animation">动画</button>
-            <button class="filter-btn" data-filter="product">产品展示</button>
-        </section>
+            <button class="filter-btn" data-filter="tech">科技</button>
+            <button class="filter-btn" data-filter="finance">财经</button>
+            <button class="filter-btn" data-filter="ai">AI时代</button>
+        </div>
 
         <section class="portfolio-grid">
-            <div class="portfolio-item" data-category="ai-video">
-                <div class="portfolio-thumbnail">
-                    <div class="gradient-bg gradient-1">
-                        <span class="gradient-icon">&#127796;</span>
-                    </div>
-                    <div class="overlay">
-                        <button class="view-btn">查看详情</button>
+            <article class="portfolio-item" data-category="tech">
+                <div class="portfolio-cover cover-tech">
+                    <span>&#128225;</span>
+                    <span class="article-category">科技</span>
+                </div>
+                <div class="portfolio-body">
+                    <h3>国产芯片的突围：一条更长的路</h3>
+                    <p>从设计、制造到生态，国产半导体产业链正在书写属于自己的故事，也面临前所未有的挑战。</p>
+                    <div class="portfolio-meta">
+                        <span>&#128197; 2026.05</span>
+                        <span>&#128172; 公众号首发</span>
                     </div>
                 </div>
-                <div class="portfolio-info">
-                    <h3>AI风景生成器</h3>
-                    <p>使用Seedance 2.0生成的自然风光视频，支持文生视频和图生视频</p>
-                    <div class="tech-tags">
-                        <span class="tag">Seedance</span>
-                        <span class="tag">文生视频</span>
-                        <span class="tag">4K</span>
-                    </div>
-                </div>
-            </div>
+            </article>
 
-            <div class="portfolio-item" data-category="animation">
-                <div class="portfolio-thumbnail">
-                    <div class="gradient-bg gradient-2">
-                        <span class="gradient-icon">&#127912;</span>
-                    </div>
-                    <div class="overlay">
-                        <button class="view-btn">查看详情</button>
+            <article class="portfolio-item" data-category="tech">
+                <div class="portfolio-cover cover-tech">
+                    <span>&#128202;</span>
+                    <span class="article-category">科技</span>
+                </div>
+                <div class="portfolio-body">
+                    <h3>云计算的下半场：从上云到用云</h3>
+                    <p>当所有企业都开始上云，真正的差距在于谁能用云创造价值，而不是简单地"搬到云上"。</p>
+                    <div class="portfolio-meta">
+                        <span>&#128197; 2026.04</span>
+                        <span>&#128172; 公众号首发</span>
                     </div>
                 </div>
-                <div class="portfolio-info">
-                    <h3>抽象艺术动画</h3>
-                    <p>AI生成的流体艺术动画，用于音乐可视化和创意内容</p>
-                    <div class="tech-tags">
-                        <span class="tag">Runway</span>
-                        <span class="tag">艺术风格</span>
-                        <span class="tag">循环动画</span>
-                    </div>
-                </div>
-            </div>
+            </article>
 
-            <div class="portfolio-item" data-category="product">
-                <div class="portfolio-thumbnail">
-                    <div class="gradient-bg gradient-3">
-                        <span class="gradient-icon">&#128247;</span>
-                    </div>
-                    <div class="overlay">
-                        <button class="view-btn">查看详情</button>
+            <article class="portfolio-item" data-category="finance">
+                <div class="portfolio-cover cover-finance">
+                    <span>&#128176;</span>
+                    <span class="article-category">财经</span>
+                </div>
+                <div class="portfolio-body">
+                    <h3>看懂资产负债表，就看清了一家公司</h3>
+                    <p>三张报表背后的生意逻辑，用财报语言读懂企业的真实经营状况和潜在风险。</p>
+                    <div class="portfolio-meta">
+                        <span>&#128197; 2026.06</span>
+                        <span>&#128172; 公众号首发</span>
                     </div>
                 </div>
-                <div class="portfolio-info">
-                    <h3>产品展示视频</h3>
-                    <p>AI驱动的电商产品展示视频，自动生成多角度展示</p>
-                    <div class="tech-tags">
-                        <span class="tag">Pika</span>
-                        <span class="tag">产品摄影</span>
-                        <span class="tag">电商</span>
-                    </div>
-                </div>
-            </div>
+            </article>
 
-            <div class="portfolio-item" data-category="ai-video">
-                <div class="portfolio-thumbnail">
-                    <div class="gradient-bg gradient-4">
-                        <span class="gradient-icon">&#127747;</span>
-                    </div>
-                    <div class="overlay">
-                        <button class="view-btn">查看详情</button>
+            <article class="portfolio-item" data-category="finance">
+                <div class="portfolio-cover cover-market">
+                    <span>&#128200;</span>
+                    <span class="article-category">财经</span>
+                </div>
+                <div class="portfolio-body">
+                    <h3>利率周期与财富配置的逻辑</h3>
+                    <p>理解利率的潮汐如何影响股债汇与资产价格，把握长期财富配置的大方向。</p>
+                    <div class="portfolio-meta">
+                        <span>&#128197; 2026.03</span>
+                        <span>&#128172; 公众号首发</span>
                     </div>
                 </div>
-                <div class="portfolio-info">
-                    <h3>城市夜景延时</h3>
-                    <p>AI生成的城市夜景延时摄影效果视频</p>
-                    <div class="tech-tags">
-                        <span class="tag">海螺AI</span>
-                        <span class="tag">延时摄影</span>
-                        <span class="tag">夜景</span>
-                    </div>
-                </div>
-            </div>
+            </article>
 
-            <div class="portfolio-item" data-category="animation">
-                <div class="portfolio-thumbnail">
-                    <div class="gradient-bg gradient-5">
-                        <span class="gradient-icon">&#128126;</span>
-                    </div>
-                    <div class="overlay">
-                        <button class="view-btn">查看详情</button>
+            <article class="portfolio-item" data-category="ai">
+                <div class="portfolio-cover cover-ai">
+                    <span>&#9889;</span>
+                    <span class="article-category">AI时代</span>
+                </div>
+                <div class="portfolio-body">
+                    <h3>大模型时代，普通人还能抓住哪些机会？</h3>
+                    <p>从模型到应用，从平台到个体，拆解这一轮AI浪潮中真正属于普通人的三个切面。</p>
+                    <div class="portfolio-meta">
+                        <span>&#128197; 2026.07</span>
+                        <span>&#128172; 公众号首发</span>
                     </div>
                 </div>
-                <div class="portfolio-info">
-                    <h3>角色动画短片</h3>
-                    <p>AI辅助制作的角色动画，包含口型同步和表情控制</p>
-                    <div class="tech-tags">
-                        <span class="tag">HeyGen</span>
-                        <span class="tag">数字人</span>
-                        <span class="tag">口型同步</span>
-                    </div>
-                </div>
-            </div>
+            </article>
 
-            <div class="portfolio-item" data-category="product">
-                <div class="portfolio-thumbnail">
-                    <div class="gradient-bg gradient-6">
-                        <span class="gradient-icon">&#127860;</span>
-                    </div>
-                    <div class="overlay">
-                        <button class="view-btn">查看详情</button>
+            <article class="portfolio-item" data-category="ai">
+                <div class="portfolio-cover cover-ai">
+                    <span>&#127916;</span>
+                    <span class="article-category">AI时代</span>
+                </div>
+                <div class="portfolio-body">
+                    <h3>AIGC如何重塑内容创作的底层逻辑</h3>
+                    <p>从写文到作画再到视频，内容生产的门槛正在降低，人的创造力反而变得更加珍贵。</p>
+                    <div class="portfolio-meta">
+                        <span>&#128197; 2026.02</span>
+                        <span>&#128172; 公众号首发</span>
                     </div>
                 </div>
-                <div class="portfolio-info">
-                    <h3>美食广告视频</h3>
-                    <p>AI生成的美食广告视频，动态展示食物细节</p>
-                    <div class="tech-tags">
-                        <span class="tag">Magic Hour</span>
-                        <span class="tag">广告</span>
-                        <span class="tag">美食</span>
+            </article>
+
+            <article class="portfolio-item" data-category="tech">
+                <div class="portfolio-cover cover-tech">
+                    <span>&#128267;</span>
+                    <span class="article-category">科技</span>
+                </div>
+                <div class="portfolio-body">
+                    <h3>新能源车进入淘汰赛，谁能笑到最后</h3>
+                    <p>补贴退坡、价格战硝烟弥漫，产业的终局可能比想象中更快到来。</p>
+                    <div class="portfolio-meta">
+                        <span>&#128197; 2026.01</span>
+                        <span>&#128172; 公众号首发</span>
                     </div>
                 </div>
-            </div>
+            </article>
+
+            <article class="portfolio-item" data-category="finance">
+                <div class="portfolio-cover cover-finance">
+                    <span>&#128178;</span>
+                    <span class="article-category">财经</span>
+                </div>
+                <div class="portfolio-body">
+                    <h3>复利思维的三个误区</h3>
+                    <p>"复利是世界的第八大奇迹"，可真正理解它的人并不多，很多人从一开始就搞反了。</p>
+                    <div class="portfolio-meta">
+                        <span>&#128197; 2025.12</span>
+                        <span>&#128172; 公众号首发</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="portfolio-item" data-category="ai">
+                <div class="portfolio-cover cover-ai">
+                    <span>&#128297;</span>
+                    <span class="article-category">AI时代</span>
+                </div>
+                <div class="portfolio-body">
+                    <h3>程序员会失业吗？AI与职业的未来</h3>
+                    <p>每一次技术革命都会引发"失业焦虑"，这一次轮到程序员了吗？答案可能藏在历史里。</p>
+                    <div class="portfolio-meta">
+                        <span>&#128197; 2025.11</span>
+                        <span>&#128172; 公众号首发</span>
+                    </div>
+                </div>
+            </article>
         </section>
 
-        <section class="ai-video-generator">
-            <h2>AI视频生成器</h2>
-            <p>使用AI技术创建您的视频</p>
-            
-            <div class="generator-container">
-                <div class="generator-input">
-                    <textarea id="video-prompt" placeholder="描述您想要生成的视频内容..."></textarea>
-                    <div class="generator-options">
-                        <select id="video-style">
-                            <option value="realistic">写实风格</option>
-                            <option value="artistic">艺术风格</option>
-                            <option value="cartoon">卡通风格</option>
-                        </select>
-                        <select id="video-duration">
-                            <option value="3">3秒</option>
-                            <option value="5">5秒</option>
-                            <option value="8">8秒</option>
-                        </select>
-                        <button id="generate-btn" class="generate-button">生成视频</button>
-                    </div>
-                </div>
-                
-                <div class="generator-output">
-                    <div id="video-preview" class="video-preview">
-                        <p>视频将在这里显示</p>
-                    </div>
-                    <div id="generation-status" class="generation-status">
-                        <div class="progress-bar">
-                            <div class="progress-fill"></div>
-                        </div>
-                        <p class="status-text">准备生成...</p>
+        <section class="follow" id="follow">
+            <div class="follow-panel">
+                <div class="follow-text">
+                    <h2>更多文章在公众号</h2>
+                    <p>以上文章均在微信公众号"麦子的拾穗集"首发。</p>
+                    <p>点击下方按钮，或在微信搜索公众号名称即可订阅。</p>
+                    <div class="follow-name">
+                        <span>&#128172;</span> 公众号：麦子的拾穗集
                     </div>
                 </div>
             </div>
@@ -216,12 +203,18 @@
     </main>
 
     <footer>
+        <div class="footer-nav">
+            <a href="index.html">首页</a>
+            <a href="portfolio.html">文章</a>
+            <a href="about.html">关于我</a>
+        </div>
+        <div class="footer-logo">麦子的拾穗集</div>
         <div class="footer-content">
-            <p>&copy; 2026 个人作品集. 保留所有权利.</p>
+            <p>&copy; 2026 麦子的拾穗集. 保留所有权利.</p>
         </div>
     </footer>
 
     <script src="js/main.js"></script>
-    <script src="js/video-generator.js"></script>
+    <script src="js/portfolio-filter.js"></script>
 </body>
 </html>
