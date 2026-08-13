@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="探索我的AI视频创作项目，包括AI生成的风景、动画、产品展示等多种类型的视频作品。">
+    <meta name="keywords" content="AI视频, 作品集, 视频创作, 风景视频, 动画, 产品展示">
+    <meta name="author" content="AI视频创作者">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourusername.github.io/portfolio.html">
+    <meta property="og:title" content="作品集 | AI视频创作者">
+    <meta property="og:description" content="探索我的AI视频创作项目，包括AI生成的风景、动画、产品展示等多种类型的视频作品。">
+    <meta property="og:image" content="https://yourusername.github.io/images/portfolio-og.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourusername.github.io/portfolio.html">
+    <meta property="twitter:title" content="作品集 | AI视频创作者">
+    <meta property="twitter:description" content="探索我的AI视频创作项目，包括AI生成的风景、动画、产品展示等多种类型的视频作品。">
+    <meta property="twitter:image" content="https://yourusername.github.io/images/portfolio-og.jpg">
+    
+    <title>作品集 | 个人网站</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Portfolio</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">首页</a></li>
+                <li><a href="portfolio.html" class="nav-link active">作品集</a></li>
+                <li><a href="about.html" class="nav-link">关于我</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <h1>作品集</h1>
+            <p>探索我的AI视频创作项目</p>
+        </section>
+
+        <section class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">全部</button>
+            <button class="filter-btn" data-filter="ai-video">AI视频</button>
+            <button class="filter-btn" data-filter="animation">动画</button>
+            <button class="filter-btn" data-filter="product">产品展示</button>
+        </section>
+
+        <section class="portfolio-grid">
+            <div class="portfolio-item" data-category="ai-video">
+                <div class="portfolio-thumbnail">
+                    <div class="placeholder-image">AI风景1</div>
+                    <div class="overlay">
+                        <button class="view-btn">查看详情</button>
+                    </div>
+                </div>
+                <div class="portfolio-info">
+                    <h3>AI生成风景视频</h3>
+                    <p>使用AI工具生成的自然风光视频</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="animation">
+                <div class="portfolio-thumbnail">
+                    <div class="placeholder-image">抽象动画</div>
+                    <div class="overlay">
+                        <button class="view-btn">查看详情</button>
+                    </div>
+                </div>
+                <div class="portfolio-info">
+                    <h3>抽象艺术动画</h3>
+                    <p>创意抽象视觉动画</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="product">
+                <div class="portfolio-thumbnail">
+                    <div class="placeholder-image">产品展示</div>
+                    <div class="overlay">
+                        <button class="view-btn">查看详情</button>
+                    </div>
+                </div>
+                <div class="portfolio-info">
+                    <h3>产品展示视频</h3>
+                    <p>AI驱动的产品展示视频</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="ai-video">
+                <div class="portfolio-thumbnail">
+                    <div class="placeholder-image">城市夜景</div>
+                    <div class="overlay">
+                        <button class="view-btn">查看详情</button>
+                    </div>
+                </div>
+                <div class="portfolio-info">
+                    <h3>城市夜景AI视频</h3>
+                    <p>AI生成的城市夜景视频</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="animation">
+                <div class="portfolio-thumbnail">
+                    <div class="placeholder-image">角色动画</div>
+                    <div class="overlay">
+                        <button class="view-btn">查看详情</button>
+                    </div>
+                </div>
+                <div class="portfolio-info">
+                    <h3>角色动画</h3>
+                    <p>AI辅助的角色动画制作</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="product">
+                <div class="portfolio-thumbnail">
+                    <div class="placeholder-image">美食展示</div>
+                    <div class="overlay">
+                        <button class="view-btn">查看详情</button>
+                    </div>
+                </div>
+                <div class="portfolio-info">
+                    <h3>美食展示视频</h3>
+                    <p>AI生成的美食展示视频</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="ai-video-generator">
+            <h2>AI视频生成器</h2>
+            <p>使用AI技术创建您的视频</p>
+            
+            <div class="generator-container">
+                <div class="generator-input">
+                    <textarea id="video-prompt" placeholder="描述您想要生成的视频内容..."></textarea>
+                    <div class="generator-options">
+                        <select id="video-style">
+                            <option value="realistic">写实风格</option>
+                            <option value="artistic">艺术风格</option>
+                            <option value="cartoon">卡通风格</option>
+                        </select>
+                        <select id="video-duration">
+                            <option value="3">3秒</option>
+                            <option value="5">5秒</option>
+                            <option value="8">8秒</option>
+                        </select>
+                        <button id="generate-btn" class="generate-button">生成视频</button>
+                    </div>
+                </div>
+                
+                <div class="generator-output">
+                    <div id="video-preview" class="video-preview">
+                        <p>视频将在这里显示</p>
+                    </div>
+                    <div id="generation-status" class="generation-status">
+                        <div class="progress-bar">
+                            <div class="progress-fill"></div>
+                        </div>
+                        <p class="status-text">准备生成...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 个人作品集. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/video-generator.js"></script>
+</body>
+</html>
