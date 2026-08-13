@@ -1,5 +1,4 @@
-// 移动端菜单切换
-document.addEventListener('DOMContentLoaded', function() {
+// 绉诲姩绔彍鍗曞垏鎹?document.addEventListener('DOMContentLoaded', function() {
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
     
@@ -9,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
             hamburger.classList.toggle('active');
         });
         
-        // 点击菜单项后关闭菜单
+        // 鐐瑰嚮鑿滃崟椤瑰悗鍏抽棴鑿滃崟
         document.querySelectorAll('.nav-link').forEach(link => {
             link.addEventListener('click', function() {
                 navMenu.classList.remove('active');
@@ -18,18 +17,15 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // 作品集筛选功能
-    const filterButtons = document.querySelectorAll('.filter-btn');
+    // 浣滃搧闆嗙瓫閫夊姛鑳?    const filterButtons = document.querySelectorAll('.filter-btn');
     const portfolioItems = document.querySelectorAll('.portfolio-item');
     
     filterButtons.forEach(button => {
         button.addEventListener('click', function() {
-            // 更新按钮状态
-            filterButtons.forEach(btn => btn.classList.remove('active'));
+            // 鏇存柊鎸夐挳鐘舵€?            filterButtons.forEach(btn => btn.classList.remove('active'));
             this.classList.add('active');
             
-            // 筛选作品
-            const filter = this.getAttribute('data-filter');
+            // 绛涢€変綔鍝?            const filter = this.getAttribute('data-filter');
             
             portfolioItems.forEach(item => {
                 if (filter === 'all' || item.getAttribute('data-category') === filter) {
@@ -49,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // 滚动动画
+    // 婊氬姩鍔ㄧ敾
     const observerOptions = {
         threshold: 0.1,
         rootMargin: '0px 0px -50px 0px'
@@ -64,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, observerOptions);
     
-    // 观察需要动画的元素
+    // 瑙傚療闇€瑕佸姩鐢荤殑鍏冪礌
     document.querySelectorAll('.work-card, .skill-item, .portfolio-item').forEach(el => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(30px)';
@@ -72,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(el);
     });
     
-    // 平滑滚动
+    // 骞虫粦婊氬姩
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
@@ -86,8 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // 导航栏滚动效果
-    let lastScroll = 0;
+    // 瀵艰埅鏍忔粴鍔ㄦ晥鏋?    let lastScroll = 0;
     const navbar = document.querySelector('.navbar');
     
     window.addEventListener('scroll', () => {

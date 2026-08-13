@@ -23,7 +23,7 @@ body {
     background-color: var(--bg-color);
 }
 
-/* 导航栏样式 */
+/* 瀵艰埅鏍忔牱寮?*/
 .navbar {
     position: fixed;
     top: 0;
@@ -97,7 +97,7 @@ body {
     transition: all 0.3s ease;
 }
 
-/* 英雄区域样式 */
+/* 鑻遍泟鍖哄煙鏍峰紡 */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -180,7 +180,7 @@ body {
     box-shadow: 0 0 0 10px rgba(37, 99, 235, 0.2);
 }
 
-/* 通用区块样式 */
+/* 閫氱敤鍖哄潡鏍峰紡 */
 section {
     padding: 5rem 2rem;
     max-width: 1200px;
@@ -195,7 +195,7 @@ section h2 {
     color: var(--text-color);
 }
 
-/* 精选作品网格 */
+/* 绮鹃€変綔鍝佺綉鏍?*/
 .works-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -242,7 +242,7 @@ section h2 {
     color: var(--text-light);
 }
 
-/* 技能网格 */
+/* 鎶€鑳界綉鏍?*/
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -276,7 +276,7 @@ section h2 {
     color: var(--text-light);
 }
 
-/* 页面头部 */
+/* 椤甸潰澶撮儴 */
 .page-header {
     text-align: center;
     padding: 120px 2rem 4rem;
@@ -293,7 +293,7 @@ section h2 {
     color: var(--text-light);
 }
 
-/* 作品集筛选 */
+/* 浣滃搧闆嗙瓫閫?*/
 .portfolio-filters {
     display: flex;
     justify-content: center;
@@ -319,7 +319,7 @@ section h2 {
     background: rgba(37, 99, 235, 0.05);
 }
 
-/* 作品集网格 */
+/* 浣滃搧闆嗙綉鏍?*/
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -392,7 +392,7 @@ section h2 {
     color: var(--text-light);
 }
 
-/* AI视频生成器样式 */
+/* AI瑙嗛鐢熸垚鍣ㄦ牱寮?*/
 .ai-video-generator {
     background: var(--bg-light);
     border-radius: 16px;
@@ -511,7 +511,7 @@ section h2 {
     font-size: 0.875rem;
 }
 
-/* 关于页面样式 */
+/* 鍏充簬椤甸潰鏍峰紡 */
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -562,7 +562,7 @@ section h2 {
     line-height: 1.8;
 }
 
-/* 技能部分样式 */
+/* 鎶€鑳介儴鍒嗘牱寮?*/
 .skills-section {
     background: var(--bg-light);
     padding: 2rem;
@@ -601,7 +601,7 @@ section h2 {
     border-bottom: none;
 }
 
-/* 时间线样式 */
+/* 鏃堕棿绾挎牱寮?*/
 .experience {
     padding: 2rem;
 }
@@ -661,7 +661,7 @@ section h2 {
     color: var(--text-light);
 }
 
-/* 联系方式样式 */
+/* 鑱旂郴鏂瑰紡鏍峰紡 */
 .contact {
     padding: 2rem;
 }
@@ -703,7 +703,7 @@ section h2 {
     text-decoration: underline;
 }
 
-/* 页脚样式 */
+/* 椤佃剼鏍峰紡 */
 footer {
     background: var(--text-color);
     color: white;
@@ -716,7 +716,7 @@ footer {
     opacity: 0.8;
 }
 
-/* 响应式设计 */
+/* 鍝嶅簲寮忚璁?*/
 @media (max-width: 768px) {
     .nav-menu {
         position: fixed;
